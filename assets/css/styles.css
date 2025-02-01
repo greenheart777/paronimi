@@ -1,0 +1,9 @@
+.row {
+}
+
+@media (min-width: 1200px) {
+  #img_1 {
+    width: 800px;
+  }
+}
+

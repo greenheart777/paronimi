@@ -1,0 +1,57 @@
+.tc-headline-7 {
+  position: relative;
+  float: left;
+  color: #bdbdbd;
+  margin: 40px 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.tc-headline-7 h1, .tc-headline-7 h5 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.tc-headline-7 h1 {
+  font-size: 2.8em;
+  line-height: 50px;
+  position: relative;
+  color: #bdbdbd;
+  text-align: center;
+  margin: 0 0 7px;
+  line-height: 1em;
+}
+
+.tc-headline-7 h5 {
+  margin: 0 40px;
+  padding: 5px 0;
+  font-weight: 500;
+  border-top: 4px solid #bdbdbd;
+  border-bottom: 4px solid #bdbdbd;
+  white-space: nowrap;
+}
+
+.tc-headline-7 h5:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  border-width: 20px 30px;
+  border-style: solid;
+  border-color: #bdbdbd #bdbdbd transparent #bdbdbd;
+}
+
+.tc-headline-7 h6 {
+  margin: 0 0 2px;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
